@@ -5,23 +5,23 @@ function Loading(props) {
   return <div className="vnt-loading"></div>;
 }
 
-const DangNhap = Loadable({
-  loader: () => import("./components/dangnhap/trangchu"),
+const Login = Loadable({
+  loader: () => import("./components/login/index"),
   loading: Loading,
 });
 
-const GiaoVien = Loadable({
-  loader: () => import("./components/giaovien/trangchu"),
+const Teacher = Loadable({
+  loader: () => import("./components/teacher/index"),
   loading: Loading,
 });
 
 export const appRoutes = [
   {
     path: "/",
-    component: DangNhap,
+    component: Login,
   },
   {
-    path: "/GiaoVien",
-    component: GiaoVien,
+    path: "/teacher",
+    component: Teacher,
   },
 ];
