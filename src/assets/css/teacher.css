@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body-page-teacher {
+  background-image: url("../images/7.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.body-the-river {
+  background-image: url("../images/song.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.river-main {
+  background-image: url("../images/Background-layer/black.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+  padding: 100px;
+  color: #fff;
+}
+
+.select {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.body-page-teacher .list-btn {
+  display: flex;
+  text-align: center;
+  width: 100vw;
+}
+
+.list-btn button {
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  margin: calc((100vh - 76px) / 2) auto;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.list-btn a {
+  margin: 0 auto;
+}
+
+.list-btn button:hover {
+  opacity: 1;
+}
+
+.map {
+  display: flex;
+  margin: 100px 50px;
+}
+
+#map-exam {
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-image: url("../images/Background-layer/black.png");
+}
+#map-exam img {
+  width: 100%;
+}
+#map-exam p {
+  margin-bottom: 0 !important;
+}
+
+.question {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.question span {
+  font-size: 20px;
+}
+
+.titleText {
+  width: 100%;
+  padding: 0 200px;
+  text-align: center;
+}
+
+::placeholder {
+  color: black !important;
+  font-size: 20px;
+}
+.answer {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 195px;
+  text-align: center;
+}
+
+.row1,
+.row2 {
+  display: flex;
+}
+
+span.ant-input-affix-wrapper.ant-input-affix-wrapper-lg {
+  margin: 5px;
+}
+
+.question button {
+  margin-top: 20px;
+  background-color: teal;
+  border: none;
+  padding: 10px 30px;
+  font-size: 25px;
+  border-radius: 5px;
+}
